@@ -1,10 +1,30 @@
-.classe1 {
-    color: brown; 
-    font-weight: 800; 
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
+.header{
+    color: #3299b9; 
+    border-bottom: 3px solid #327cb9;
     }
-    .classe2 {
-    color: pink; 
-    font-weight: 800; 
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
-    }
+   body{
+       margin: 0;
+       background-color: black;
+       font-family: monospace;
+   }
+.container{
+    width: 80%;
+    margin: auto
+}
+.header .container{
+    display: flex;
+    justify-content: space-between
+}
+
+.navbar{
+    display: flex;
+    list-style: none;
+    justify-content: space-evenly;
+    padding: 0 ;
+    width: 600px;
+    align-items: center;
+    color: orange
+    }   
+.agora{
+    font-weight: 1000
+}
